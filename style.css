@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* facebook section starts */
+.facebook{
+    position: relative;
+    border-radius: 1rem;
+    display: flex;
+    margin: 3rem;
+    font-size: 3rem;
+    width: 6rem;
+    height: 6rem;
+    background: #fff;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+    color: #3b5998;
+    overflow: hidden;
+}
+
+.facebook:hover{
+    color: #fff;
+    background: #3b5998;
+    border-radius: 1rem;
+    box-shadow: 0 0 5px #3b5998,
+                0 0 25px #3b5998,
+                0 0 50px #3b5998;
+}
+
+.facebook span{
+    position: absolute;
+    display: block;
+}
+
+.facebook span:nth-child(1){
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(90deg, transparent, #3b5998);
+    animation: animation1 2s linear infinite;
+    animation-delay: .5s;
+}
+
+@keyframes animation1{
+    0%{
+        left: -100%;
+    }
+    50%, 100%{
+        left: 100%;
+    }
+}
+
+.facebook span:nth-child(3){
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(270deg, transparent, #3b5998);
+    animation: animation3 2s linear infinite;
+    animation-delay: 1.5s;
+}
+
+@keyframes animation3{
+    0%{
+        right: -100%;
+    }
+    50%, 100%{
+        right: 100%;
+    }
+}
+
+.facebook span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 5px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #3b5998);
+    animation: animation2 2s linear infinite;
+    animation-delay: 1s;
+}
+
+@keyframes animation2{
+    0%{
+        top: -100%;
+    }
+    50%, 100%{
+        top: 100%;
+    }
+}
+
+.facebook span:nth-child(4){
+    bottom: -100%;
+    right: 0;
+    width: 5px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #3b5998);
+    animation: animation4 2s linear infinite;
+    animation-delay: 0;
+}
+
+@keyframes animation4{
+    0%{
+        bottom: -100%;
+    }
+    50%, 100%{
+        bottom: 100%;
+    }
+}
+/* facebook section ends */
+
+/* instagram section starts */
+.instagram{
+    position: relative;
+    border-radius: 1rem;
+    display: flex;
+    margin: 3rem;
+    font-size: 3rem;
+    width: 6rem;
+    height: 6rem;
+    background: #fff;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+    color: #c32aa3;
+    overflow: hidden;
+}
+
+.instagram:hover{
+    color: #fff;
+    background: #c32aa3;
+    border-radius: 1rem;
+    box-shadow: 0 0 5px #c32aa3,
+                0 0 25px #c32aa3,
+                0 0 50px #c32aa3;
+}
+
+.instagram span{
+    position: absolute;
+    display: block;
+}
+
+.instagram span:nth-child(1){
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(90deg, transparent, #c32aa3);
+    animation: animation1 2s linear infinite;
+    animation-delay: .5s;
+}
+
+@keyframes animation1{
+    0%{
+        left: -100%;
+    }
+    50%, 100%{
+        left: 100%;
+    }
+}
+
+.instagram span:nth-child(3){
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(270deg, transparent, #c32aa3);
+    animation: animation3 2s linear infinite;
+    animation-delay: 1.5s;
+}
+
+@keyframes animation3{
+    0%{
+        right: -100%;
+    }
+    50%, 100%{
+        right: 100%;
+    }
+}
+
+.instagram span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 5px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #c32aa3);
+    animation: animation2 2s linear infinite;
+    animation-delay: 1s;
+}
+
+@keyframes animation2{
+    0%{
+        top: -100%;
+    }
+    50%, 100%{
+        top: 100%;
+    }
+}
+
+.instagram span:nth-child(4){
+    bottom: -100%;
+    right: 0;
+    width: 5px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #c32aa3);
+    animation: animation4 2s linear infinite;
+    animation-delay: 0;
+}
+
+@keyframes animation4{
+    0%{
+        bottom: -100%;
+    }
+    50%, 100%{
+        bottom: 100%;
+    }
+}
+/* instagram section ends */
+
+/* twitter section starts */
+.twitter{
+    position: relative;
+    border-radius: 1rem;
+    display: flex;
+    margin: 3rem;
+    font-size: 3rem;
+    width: 6rem;
+    height: 6rem;
+    background: #fff;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+    color: #00acee;
+    overflow: hidden;
+
+}
+
+.twitter:hover{
+    color: #fff;
+    background: #00acee;
+    box-shadow: 0 0 5px #00acee,
+                0 0 25px #00acee,
+                0 0 50px #00acee;
+}
+
+.twitter span{
+    position: absolute;
+    display: block;
+}
+
+.twitter span:nth-child(1){
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(90deg, transparent, #00acee);
+    animation: animation1 2s linear infinite;
+    animation-delay: .5s;
+    
+}
+
+@keyframes animation1{
+    0%{
+        left: -100%;
+    }
+    50%, 100%{
+        left: 100%;
+    }
+}
+
+.twitter span:nth-child(3){
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(270deg, transparent, #00acee);
+    animation: animation3 2s linear infinite;
+    animation-delay: 1.5s;
+}
+
+@keyframes animation3{
+    0%{
+        right: -100%;
+    }
+    50%, 100%{
+        right: 100%;
+    }
+}
+
+.twitter span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 5px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #00acee);
+    animation: animation2 2s linear infinite;
+    animation-delay: 1s;
+}
+
+@keyframes animation2{
+    0%{
+        top: -100%;
+    }
+    50%, 100%{
+        top: 100%;
+    }
+}
+
+.twitter span:nth-child(4){
+    bottom: -100%;
+    right: 0;
+    width: 5px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #00acee);
+    animation: animation4 2s linear infinite;
+    animation-delay: 0;
+}
+
+@keyframes animation4{
+    0%{
+        bottom: -100%;
+    }
+    50%, 100%{
+        bottom: 100%;
+    }
+}
+/* twitter section ends */
